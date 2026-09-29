@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "default_preset": "shorts-clean",
+  "presets": {
+    "natural": {
+      "minimum_word_gap_seconds": 0.75,
+      "minimum_detected_silence_seconds": 0.55,
+      "keep_after_previous_word_seconds": 0.16,
+      "keep_before_next_word_seconds": 0.14,
+      "minimum_remaining_gap_seconds": 0.30,
+      "minimum_cut_duration_seconds": 0.25,
+      "cut_leading_silence": false,
+      "cut_trailing_silence": false
+    },
+    "shorts-clean": {
+      "minimum_word_gap_seconds": 0.55,
+      "minimum_detected_silence_seconds": 0.40,
+      "keep_after_previous_word_seconds": 0.10,
+      "keep_before_next_word_seconds": 0.08,
+      "minimum_remaining_gap_seconds": 0.18,
+      "target_remaining_gap_seconds": 0.10,
+      "target_remaining_gap_tolerance_seconds": 0.02,
+      "preferred_keep_after_previous_word_seconds": 0.05,
+      "preferred_keep_before_next_word_seconds": 0.05,
+      "minimum_cut_duration_seconds": 0.04,
+      "cut_leading_silence": false,
+      "cut_trailing_silence": false
+    },
+    "aggressive": {
+      "minimum_word_gap_seconds": 0.35,
+      "minimum_detected_silence_seconds": 0.25,
+      "keep_after_previous_word_seconds": 0.06,
+      "keep_before_next_word_seconds": 0.05,
+      "minimum_remaining_gap_seconds": 0.11,
+      "minimum_cut_duration_seconds": 0.12,
+      "cut_leading_silence": false,
+      "cut_trailing_silence": false
+    }
+  }
+}

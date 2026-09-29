@@ -1,0 +1,10 @@
+{
+  "mai_yamok": {
+    "attach_to_previous_token": true,
+    "allow_caption_start": false,
+    "space_before": 0,
+    "space_after_before_word": 1,
+    "space_after_before_punctuation": 0,
+    "count_with_previous_as_one_word": true
+  }
+}

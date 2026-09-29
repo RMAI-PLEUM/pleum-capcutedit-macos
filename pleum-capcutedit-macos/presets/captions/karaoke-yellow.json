@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "preset_id": "karaoke-yellow",
+  "base_caption_preset": "system-default",
+  "highlight": {
+    "hex": "#F4C70F",
+    "capcut_color_value": [
+      0.95686274766922,
+      0.7803921699523926,
+      0.05882352963089943
+    ],
+    "range_representation": "utf16_start_end_exclusive",
+    "range_includes_trailing_separator": true,
+    "range_style_template": {
+      "fill": {
+        "content": {
+          "render_type": "solid",
+          "solid": {
+            "color": [
+              0.95686274766922,
+              0.7803921699523926,
+              0.05882352963089943
+            ]
+          }
+        }
+      }
+    },
+    "preserve_base_stroke": true,
+    "preserve_base_shadow": true,
+    "preserve_base_transform": true
+  },
+  "source": {
+    "kind": "sanitized-color-only-template",
+    "project": "",
+    "project_identity": "",
+    "style_fingerprint": "",
+    "learned_at": ""
+  },
+  "distribution_note": "Color-only karaoke highlight. Font, size, weight, scale, shadow, stroke, spacing, and transform are inherited unchanged from the base caption."
+}

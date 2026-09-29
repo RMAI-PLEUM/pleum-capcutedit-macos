@@ -1,0 +1,9 @@
+elevenlabs
+requests
+python-dotenv
+pyyaml
+rich
+tqdm
+srt
+pythainlp
+rapidfuzz

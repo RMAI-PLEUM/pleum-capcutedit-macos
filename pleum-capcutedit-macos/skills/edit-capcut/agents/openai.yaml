@@ -1,0 +1,4 @@
+interface:
+  display_name: "CapCut Editor"
+  short_description: "Safe direct CapCut editing and neutral captions"
+  default_prompt: "Use $edit-capcut to inspect and safely edit a named CapCut project with neutral captions and validated direct writes."

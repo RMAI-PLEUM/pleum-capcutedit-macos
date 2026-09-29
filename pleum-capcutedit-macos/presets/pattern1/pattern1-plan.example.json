@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "profile": "Pattern 1",
+  "reference_project": "Local Pattern Reference",
+  "target_project": "Target Project",
+  "expected": {
+    "duration_seconds": 30.0,
+    "video_segments": 10,
+    "ordinary_captions_before": 120
+  },
+  "audio_events": [
+    {
+      "template": "LOCAL_HOOK_IMPACT",
+      "start": 0.0,
+      "track": 1,
+      "volume": 0.44,
+      "role": "hook_bed"
+    },
+    {
+      "template": "LOCAL_CTA_ACCENT",
+      "start": 26.93,
+      "track": 1,
+      "volume": 1.0,
+      "role": "cta_keyword_lead"
+    }
+  ],
+  "transitions": [
+    {
+      "template": "LOCAL_CHAPTER_TRANSITION",
+      "after_section": 3,
+      "role": "major_chapter_handoff"
+    }
+  ],
+  "zooms": [
+    {
+      "section": 1,
+      "relative_change_percent": 4.5,
+      "role": "hook"
+    },
+    {
+      "section": 7,
+      "relative_change_percent": 5.0,
+      "role": "warning_or_consequence"
+    }
+  ],
+  "cta": {
+    "keyword": "example",
+    "caption_start": 27.0,
+    "start": 27.0,
+    "end": 30.0,
+    "quoted": true,
+    "animation": "LOCAL_CTA_ANIMATION"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "policy": "exact_macos_schema_fingerprint_and_feature_evidence_required",
+  "tested_schemas": [
+    {
+      "operating_system": "Darwin (macOS)",
+      "capcut_version": "9.1.0 (279)",
+      "schema_fingerprint": "f6cf50066fe86665b99244f996f1e4d3fa8cdb08eb209c09393314cce4a24ff2",
+      "direct_write_validated": true,
+      "supported_features": [
+        "direct_project_read",
+        "draft_info_active_timeline_resolution",
+        "mirrored_draft_validation",
+        "atomic_mirror_write",
+        "neutral_caption_injection",
+        "normal_speed_silence_cut",
+        "capcut_reopen_readback"
+      ],
+      "unresolved_fields": [
+        "compound clips",
+        "reverse playback",
+        "unknown speed curves",
+        "karaoke direct write",
+        "duplicate-take direct write",
+        "pattern-1 direct write"
+      ],
+      "last_validation_date": "2026-08-02"
+    },
+    {
+      "operating_system": "Darwin (macOS)",
+      "capcut_version": "9.1.0 (279)",
+      "schema_fingerprint": "8cbdbf1978135b192cd0b0226ef549e925750adbe1462dde7667e32e14f15757",
+      "direct_write_validated": false,
+      "supported_features": [
+        "direct_project_read",
+        "draft_info_active_timeline_resolution",
+        "mirrored_draft_validation",
+        "dry_run_planning"
+      ],
+      "unresolved_fields": ["controlled_reopen_validation"],
+      "last_validation_date": "2026-08-02"
+    },
+    {
+      "operating_system": "Darwin (macOS)",
+      "capcut_version": "9.1.0 (279)",
+      "schema_fingerprint": "a52ec7c8ea514417f0ccea504f94e40619c3bac182dcbf42a2bf542d7229dde3",
+      "direct_write_validated": false,
+      "supported_features": [
+        "direct_project_read",
+        "draft_info_active_timeline_resolution",
+        "mirrored_draft_validation",
+        "dry_run_planning"
+      ],
+      "unresolved_fields": ["controlled_reopen_validation"],
+      "last_validation_date": "2026-08-02"
+    },
+    {
+      "operating_system": "Darwin (macOS)",
+      "capcut_version": "9.1.0 (279)",
+      "schema_fingerprint": "6ebdc92bf4b4d619ae0815917940cb3808db85bc436b1bfb693a2342be7388dc",
+      "direct_write_validated": false,
+      "supported_features": [
+        "direct_project_read",
+        "draft_info_active_timeline_resolution",
+        "mirrored_draft_validation",
+        "dry_run_planning"
+      ],
+      "unresolved_fields": ["controlled_reopen_validation"],
+      "last_validation_date": "2026-08-02"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pleum CapCutEdit for macOS"
+  short_description: "Safe CapCut editing workflows for macOS"
+  default_prompt: "Use $pleum-capcutedit-macos to inspect and safely edit my local CapCut project on macOS."

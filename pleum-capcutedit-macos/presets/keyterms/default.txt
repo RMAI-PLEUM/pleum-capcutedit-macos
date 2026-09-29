@@ -1,0 +1,5 @@
+# One preferred spelling or key term per line.
+# Example:
+# Mark Zuckerberg
+# Facebook
+# Meta

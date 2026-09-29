@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pattern 1"
+  short_description: "Apply semantic Pattern 1 to talking-head edits"
+  default_prompt: "Use $pattern-1 with my local reference project to apply semantic SFX, sparse transitions, subtle zooms, neutral captions, and a color-only CTA."

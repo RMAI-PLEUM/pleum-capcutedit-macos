@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pleum-capcutedit-macos"
+version = "1.2.0"
+description = "Privacy-safe CapCut editing for macOS with captions, cleanup, and Pattern 1"
+readme = "SKILL.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "elevenlabs",
+  "requests",
+  "python-dotenv",
+  "PyYAML",
+  "rich",
+  "tqdm",
+  "srt",
+  "pythainlp",
+  "rapidfuzz",
+]
+
+[project.scripts]
+edit-capcut = "edit_capcut.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["edit_capcut*"]

@@ -1,0 +1,30 @@
+provider: elevenlabs
+model_id: scribe_v2
+language_code: th
+timestamps_granularity: word
+diarize: false
+
+subtitle:
+  max_lines: 1
+  max_words_per_cue: 16
+  min_duration: 0.70
+  max_duration: 4.00
+  lead_in: 0.03
+  tail_out: 0.10
+
+timeline:
+  account_for_trim: true
+  account_for_speed: true
+  clamp_to_clip_range: true
+
+caption:
+  max_lines: 1
+  max_words_per_cue: 16
+  min_duration: 0.70
+  max_duration: 4.00
+
+cut:
+  silence_threshold: 0.65
+  speech_padding: 0.12
+  minimum_cut_duration: 0.40
+  require_review_below_confidence: 0.85
